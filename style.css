@@ -12,22 +12,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(5, 5, 5);
+    background-image: url("image.png");
+    background-size: cover;
 
 }
 .box{
-    background-color: rgb(127, 180, 245);
+    backdrop-filter: blur(100px);
     border-radius: 10px;
-    padding: 30px
-    ;
+    padding: 30px;
     width:400px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.685);
     
 }
 
 .qr-header h1{
     font-size: 26px;
     text-align: center;
-    color:rgb(37, 21, 21);
+    color:rgb(255, 255, 255);
     margin-bottom: 24px;
     text-transform: uppercase;
 
@@ -77,4 +79,17 @@ a{
 
 .qr-footer :hover{
     transform: scale(1.05);
+}
+
+.qr-body{
+    display: grid;
+    place-items: center;
+    padding: 20px;}
+
+.qr-body img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-block: 10px;
+    padding: 20px;
+    border: 2px solid black;
 }
