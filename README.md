@@ -12,7 +12,8 @@ Users can enter text or a URL, choose the size, generate a QR code, and download
 - Input validation
 
 ## 📍 Deployed Link
-[Click here to use the app]:🔗(https://anakhavaishakham2005.github.io/qr-code-generator/).
+
+🔗https://anakhavaishakham2005.github.io/qr-code-generator/.
 
 Try and generate...
 
